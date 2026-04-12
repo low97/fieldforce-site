@@ -90,15 +90,14 @@ export default function FieldForceWebsiteMockup() {
               Multi-Page Corporate Website Concept
             </div>
             <h1 className="mt-6 text-5xl md:text-7xl font-black leading-[0.95] tracking-tight">
-              Powerful,
+              Reduce,
               <span className="block bg-gradient-to-r from-cyan-200 via-white to-orange-200 bg-clip-text text-transparent">
-                Colour-Rich Website
+                Downtime 
               </span>
-              For Your Brand
+              Increase productivity with us
             </h1>
             <p className="mt-6 max-w-2xl text-lg md:text-xl text-white/80 leading-relaxed">
-              A premium homepage concept with your actual logo layout properly integrated, designed to look bold,
-              modern, and professional for manpower clients searching your company online.
+              We supply skilled and general workers with fast deployment, full compliance, and dependable service across Malaysia.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -140,8 +139,8 @@ export default function FieldForceWebsiteMockup() {
                   {[
                     "Workers from Bangladesh, Nepal, and Myanmar",
                     "Suitable for factories, warehouse, logistics, and operations support",
-                    "Visual design built around your corporate blue and orange colours",
-                    "Professional presentation for website visitors and prospects",
+                    "Fast deployment wihtin 3-5 days",
+                    "Fully compliant with permit & regulations",
                   ].map((item) => (
                     <div key={item} className="flex items-start gap-3 rounded-2xl bg-white/5 p-4 border border-white/10">
                       <div className="mt-1 h-3 w-3 rounded-full bg-cyan-300" />
@@ -159,8 +158,8 @@ export default function FieldForceWebsiteMockup() {
         <div className="max-w-7xl mx-auto px-6 py-20">
           <div className="flex items-center justify-between gap-6 flex-wrap">
             <div>
-              <div className="text-sm font-bold uppercase tracking-[0.25em] text-sky-700">Full Website Structure</div>
-              <h2 className="mt-4 text-4xl md:text-5xl font-black">A complete multi-page version</h2>
+              <div className="text-sm font-bold uppercase tracking-[0.25em] text-sky-700">Field Force Manpower</div>
+              <h2 className="mt-4 text-4xl md:text-5xl font-black">A complete solution provider</h2>
             </div>
             <div className="rounded-[2rem] border border-slate-200 bg-slate-50 px-5 py-4 text-slate-600 font-medium">
               Pages: Home • About Us • Services • Industries • Why Choose Us • Contact
