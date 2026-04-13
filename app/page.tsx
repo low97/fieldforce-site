@@ -259,50 +259,59 @@ export default function FieldForceWebsiteMockup() {
         </div>
       </section>
 
-      <section className="bg-slate-950 text-white">
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="rounded-[2rem] border border-white/10 bg-gradient-to-r from-blue-900 via-sky-800 to-orange-500 p-8 md:p-12 shadow-2xl">
-            <div className="grid lg:grid-cols-2 gap-10 items-center">
-              <div>
-                <div className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-100">Contact Us</div>
-                <h2 className="mt-4 text-4xl md:text-5xl font-black">Let’s power your workforce</h2>
-                <p className="mt-4 text-lg text-white/85 max-w-xl">
-                  Call for inquiries, quotations, and direct manpower discussions.
-                </p>
-              </div>
+		<section className="bg-slate-950 text-white">
+		  <div className="max-w-7xl mx-auto px-6 py-20">
+			<div className="rounded-[2rem] border border-white/10 bg-gradient-to-r from-blue-900 via-sky-800 to-orange-500 p-8 md:p-12 shadow-2xl">
+			  <div className="grid lg:grid-cols-2 gap-10 items-center">
+				<div>
+				  <div className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-100">Contact Us</div>
+				  <h2 className="mt-4 text-4xl md:text-5xl font-black">Let’s power your workforce</h2>
+				  <p className="mt-4 text-lg text-white/85 max-w-xl">
+					Call for inquiries, quotations, and direct manpower discussions.
+				  </p>
+				</div>
 
-              <div className="rounded-[1.5rem] bg-white/10 p-6 border border-white/15 backdrop-blur-xl">
-                <div className="flex items-center gap-4">
-                  <img src={logoSrc} alt="Field Force logo small" className="h-16 w-auto rounded-xl bg-white p-2" />
-                  <div>
-                    <div className="text-2xl font-black">FIELD FORCE MANPOWER SDN BHD</div>
-                    <div className="text-white/70">Empowering Your Workforce</div>
-                  </div>
-                </div>
-                <div className="mt-6 space-y-3 text-white/85 text-lg">
-                  <div>Phone: 016-394 1757</div>
-                  <div>Email: info@fieldforcemanpower.com</div>
-                  <div>Coverage: Across Malaysia</div>
-                </div>
-                <div className="mt-6 flex flex-wrap gap-4 relative z-[999]">
-                  <a 
-                     href="https://api.whatsapp.com/send?phone=60163941757&text=Hi%20I%20am%20interested%20in%20your%20manpower%20services">
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="rounded-2xl bg-white px-6 py-3 font-bold text-sky-900 shadow-lg inline-block"
-                  >
-                      WhatsApp Now
-                  </a>
+				<div className="rounded-[1.5rem] bg-white/10 p-6 border border-white/15 backdrop-blur-xl relative z-20">
+				  <div className="flex items-center gap-4">
+					<img
+					  src={logoSrc}
+					  alt="Field Force logo small"
+					  className="h-16 w-auto rounded-xl bg-white p-2"
+					/>
+					<div>
+					  <div className="text-2xl font-black">FIELD FORCE MANPOWER SDN BHD</div>
+					  <div className="text-white/70">Empowering Your Workforce</div>
+					</div>
+				  </div>
 
-                  <button className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white">
-                    Request Proposal
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+				  <div className="mt-6 space-y-3 text-white/85 text-lg">
+					<div>Phone: 016-394 1757</div>
+					<div>Email: info@fieldforcemanpower.com</div>
+					<div>Coverage: Across Malaysia</div>
+				  </div>
+
+				  <div className="mt-6 flex flex-wrap gap-4 relative z-[999] pointer-events-auto">
+					<a
+					  href="https://api.whatsapp.com/send?phone=60163941757&text=Hi%20I%20am%20interested%20in%20your%20manpower%20services"
+					  target="_blank"
+					  rel="noopener noreferrer"
+					  className="rounded-2xl bg-white px-6 py-3 font-bold text-sky-900 shadow-lg inline-flex items-center justify-center cursor-pointer"
+					>
+					  WhatsApp Now
+					</a>
+
+					<button
+					  type="button"
+					  className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white"
+					>
+					  Request Proposal
+					</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
     </div>
   );
 }
