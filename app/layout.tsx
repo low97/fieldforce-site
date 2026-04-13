@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Field Force Manpower Sdn Bhd",
   description: "Reliable manpower supply services across Malaysia. Fast deployment, competitive rates, and dependable workforce solutions.",
+ icons: {
+    icon: "/favicon.ico",
+  },
+};
 };
 
 export default function RootLayout({

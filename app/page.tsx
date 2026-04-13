@@ -67,7 +67,7 @@ export default function FieldForceWebsiteMockup() {
         <div className="relative max-w-7xl mx-auto px-6 pt-8">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4 rounded-[2rem] border border-white/15 bg-white/10 px-4 py-4 backdrop-blur-xl shadow-2xl w-fit">
-              <img src={logoSrc} alt="Field Force Manpower Sdn Bhd logo" className="h-16 md:h-20 w-auto object-contain rounded-xl bg-white/90 p-2" />
+              <img src={logoSrc} alt="Field Force Manpower Sdn Bhd" className="h-16 md:h-20 w-auto object-contain rounded-xl bg-white/90 p-2" />
               <div>
                 <div className="text-xl md:text-2xl font-black tracking-wide">FIELD FORCE MANPOWER SDN BHD</div>
                 <div className="text-sm text-cyan-100/80 tracking-[0.25em] uppercase">Empowering Your Workforce</div>
