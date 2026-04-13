@@ -1,5 +1,5 @@
 export default function FieldForceWebsiteMockup() {
-  const logoSrc = "<img src="images/logo.png" alt="logo">";
+  const logoSrc = "/images/logo.jpg";
 
   const pages = ["Home", "About", "Services", "Industries", "Why Us", "Contact"];
 
