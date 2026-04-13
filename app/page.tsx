@@ -59,10 +59,10 @@ export default function FieldForceWebsiteMockup() {
   return (
     <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
       <section className="relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950 via-sky-900 to-orange-600" />
-        <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />
-        <div className="absolute top-16 right-0 h-96 w-96 rounded-full bg-orange-400/20 blur-3xl" />
-        <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl" />
+		<div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-blue-950 via-sky-900 to-orange-600" />
+		<div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl pointer-events-none" />
+		<div className="absolute top-16 right-0 h-96 w-96 rounded-full bg-orange-400/20 blur-3xl pointer-events-none" />
+		<div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl pointer-events-none" />
 
         <div className="relative max-w-7xl mx-auto px-6 pt-8">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
@@ -279,7 +279,7 @@ export default function FieldForceWebsiteMockup() {
 					  className="h-16 w-auto rounded-xl bg-white p-2"
 					/>
 					<div>
-					  <div className="text-2xl font-black">FIELD FORCE MANPOWER SDN BHD</div>
+					  <div className="text-2xl font-black">FIELD FORCE MANPOWER SDN BsssssHD</div>
 					  <div className="text-white/70">Empowering Your Workforce</div>
 					</div>
 				  </div>

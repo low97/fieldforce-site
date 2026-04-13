@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
 };
-};
+
 
 export default function RootLayout({
   children,
