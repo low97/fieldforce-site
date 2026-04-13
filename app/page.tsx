@@ -284,7 +284,7 @@ export default function FieldForceWebsiteMockup() {
                   <div>Email: info@fieldforcemanpower.com</div>
                   <div>Coverage: Across Malaysia</div>
                 </div>
-                <div className="mt-6 flex flex-wrap gap-4">
+                <div className="mt-6 flex flex-wrap gap-4 relative z-50 pointer-events-auto">
                   <a 
                      href="https://wa.me/60163941757?text=Hi%20I%20am%20interested%20in%20your%20manpower%20services"
                      target="_blank"
@@ -293,6 +293,7 @@ export default function FieldForceWebsiteMockup() {
                   >
                       WhatsApp Now
                   </a>
+
                   <button className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white">
                     Request Proposal
                   </button>
