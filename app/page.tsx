@@ -49,11 +49,11 @@ export default function FieldForceWebsiteMockup() {
 
   const reasons = [
     "Competitive rate as low as RM105/day",
-    "Strong blue and orange corporate brand presence",
+    "Workers from Bangladesh, Nepal & Myanmar",
     "Fast deployment support",
     "Replacement within 48 hours",
-    "Suitable for client presentations and online credibility",
-    "Modern multi-page company website concept",
+    "Suitable for factory, warehouse & site operations",
+    "Reliable manpower for continuous operations",
   ];
 
   return (
@@ -87,7 +87,7 @@ export default function FieldForceWebsiteMockup() {
         <div className="relative max-w-7xl mx-auto px-6 pb-20 pt-10 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center rounded-full border border-cyan-300/30 bg-white/10 px-4 py-2 text-sm font-medium text-cyan-100 backdrop-blur">
-              Multi-Page Corporate Website Concept
+              Reliable Manpower Solutions You Can Trust
             </div>
             <h1 className="mt-6 text-5xl md:text-7xl font-black leading-[0.95] tracking-tight">
               Reduce,
@@ -184,10 +184,9 @@ export default function FieldForceWebsiteMockup() {
         <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="text-sm font-bold uppercase tracking-[0.25em] text-orange-600">About Us Page</div>
-            <h2 className="mt-4 text-4xl md:text-5xl font-black">Professional branding with trust-focused messaging</h2>
+            <h2 className="mt-4 text-4xl md:text-5xl font-black">Your Trusted Partner In Manpower</h2>
             <p className="mt-4 text-lg text-slate-600 max-w-2xl leading-relaxed">
-              This section represents how the About page can introduce your company, showcase your market focus,
-              and present your service promise in a cleaner, stronger way.
+              Field Force Manpower Sdn Bhd provides reliable manpower solutions for companies across Malaysia. We support industries such as manufacturing, warehouse, construction, and operations with fast deployment and competitive rates. Our goal is to ensure smooth operations for our clients by supplying dependable and efficient workforce support.
             </p>
 
             <div className="mt-8 grid sm:grid-cols-2 gap-4">
@@ -206,9 +205,9 @@ export default function FieldForceWebsiteMockup() {
               We provide manpower solutions for companies that need responsive support, competitive rates, and a more professional presentation when clients review the business online.
             </p>
             <div className="mt-6 rounded-3xl bg-slate-950 p-6 text-white">
-              <div className="text-sm uppercase tracking-[0.25em] text-cyan-200">Brand Direction</div>
-              <div className="mt-2 text-3xl font-black">Blue + Orange + White</div>
-              <div className="mt-2 text-white/75">A cleaner, energetic layout aligned with your actual logo colours.</div>
+              <div className="text-sm uppercase tracking-[0.25em] text-cyan-200">WHY CHOOSE US</div>
+              <div className="mt-2 text-3xl font-black">Reliable Manpower You Can Count On</div>
+              <div className="mt-2 text-white/75">A partner you can trust with your operations.</div>
             </div>
           </div>
         </div>
@@ -217,10 +216,10 @@ export default function FieldForceWebsiteMockup() {
       <section className="bg-slate-950 text-white">
         <div className="max-w-7xl mx-auto px-6 py-20">
           <div className="text-center max-w-3xl mx-auto">
-            <div className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-200">Industries Page</div>
+            <div className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-200">Industries</div>
             <h2 className="mt-4 text-4xl md:text-5xl font-black">Industries we serve</h2>
             <p className="mt-4 text-white/75 text-lg">
-              This page can be expanded with icons, examples, and stronger client-facing information later.
+              We provide manpower solutions across a wide range of industries, ensuring reliable workforce support tailored to each sector’s operational needs.
             </p>
           </div>
 
@@ -237,19 +236,19 @@ export default function FieldForceWebsiteMockup() {
       <section className="bg-white text-slate-900">
         <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-10 items-center">
           <div>
-            <div className="text-sm font-bold uppercase tracking-[0.25em] text-sky-700">Why Choose Us Page</div>
-            <h2 className="mt-4 text-4xl md:text-5xl font-black">Designed to convert attention into trust</h2>
+            <div className="text-sm font-bold uppercase tracking-[0.25em] text-sky-700">Why Choose Us ?</div>
+            <h2 className="mt-4 text-4xl md:text-5xl font-black">Why Choose Field Force Manpower</h2>
             <p className="mt-4 text-lg text-slate-600 leading-relaxed">
-              This multi-page concept helps your website feel more established and gives clients more confidence before they contact you.
+              We provide reliable and efficient manpower solutions to help your business run smoothly. Our focus is on fast deployment, consistent workforce support, and competitive pricing tailored to your operational needs.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-4">
             {[
-              ["Professional Visual Identity", "Uses your actual logo properly in the layout"],
-              ["Sales-Driven Messaging", "Clear rates, deployment, and replacement points"],
-              ["Premium Look", "Modern cards, gradients, and colour balance"],
-              ["Expandable Structure", "Can grow into a real company site easily"],
+              ["Fast Deployment", "Workers can be deployed within 5 days depending on requirements"],
+              ["Quick Replacement", "Replacement within 48 hours to minimize disruption"],
+              ["Reliable Workforce", "Consistent manpower support to ensure smooth daily operations"],
+              ["Competitive Pricing", "Rates starting from RM105/day for cost-effective solutions"],
             ].map(([title, desc]) => (
               <div key={title} className="rounded-[2rem] border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-6 shadow-lg">
                 <div className="text-xl font-black">{title}</div>
@@ -265,10 +264,10 @@ export default function FieldForceWebsiteMockup() {
           <div className="rounded-[2rem] border border-white/10 bg-gradient-to-r from-blue-900 via-sky-800 to-orange-500 p-8 md:p-12 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-10 items-center">
               <div>
-                <div className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-100">Contact Page</div>
+                <div className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-100">Contact Us</div>
                 <h2 className="mt-4 text-4xl md:text-5xl font-black">Let’s power your workforce</h2>
                 <p className="mt-4 text-lg text-white/85 max-w-xl">
-                  Final call-to-action area for inquiries, quotations, and direct manpower discussions.
+                  Call for inquiries, quotations, and direct manpower discussions.
                 </p>
               </div>
 
