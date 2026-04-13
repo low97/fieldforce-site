@@ -285,9 +285,14 @@ export default function FieldForceWebsiteMockup() {
                   <div>Coverage: Across Malaysia</div>
                 </div>
                 <div className="mt-6 flex flex-wrap gap-4">
-                  <button className="rounded-2xl bg-white px-6 py-3 font-bold text-sky-900 shadow-lg">
-                    WhatsApp Now
-                  </button>
+                  <a 
+  href="https://wa.me/60163941757?text=Hi%20I%20am%20interested%20in%20your%20manpower%20services"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-2xl bg-white px-6 py-3 font-bold text-sky-900 shadow-lg inline-block"
+>
+  WhatsApp Now
+</a>
                   <button className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white">
                     Request Proposal
                   </button>
