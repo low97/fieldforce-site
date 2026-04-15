@@ -199,7 +199,7 @@ export default function FieldForceWebsiteMockup() {
           </div>
 
           <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-2xl">
-            <img src={logoSrc} alt="Field Force Manpower logo panel" className="h-24 w-auto object-contain" />
+            <img src={logoSrc} alt="Field Force Manpower panel" className="h-24 w-auto object-contain" />
             <h3 className="mt-6 text-2xl font-black">FIELD FORCE MANPOWER SDN BHD</h3>
             <p className="mt-4 text-slate-600 leading-relaxed">
               We provide manpower solutions for companies that need responsive support, competitive rates, and a more professional presentation when clients review the business online.
@@ -275,7 +275,7 @@ export default function FieldForceWebsiteMockup() {
 				  <div className="flex items-center gap-4">
 					<img
 					  src={logoSrc}
-					  alt="Field Force logo small"
+					  alt="Field Force small"
 					  className="h-16 w-auto rounded-xl bg-white p-2"
 					/>
 					<div>
