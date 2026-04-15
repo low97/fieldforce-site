@@ -279,7 +279,7 @@ export default function FieldForceWebsiteMockup() {
 					  className="h-16 w-auto rounded-xl bg-white p-2"
 					/>
 					<div>
-					  <div className="text-2xl font-black">FIELD FORCE MANPOWER SDN BsssssHD</div>
+					  <div className="text-2xl font-black">FIELD FORCE MANPOWER SDN BHD</div>
 					  <div className="text-white/70">Empowering Your Workforce</div>
 					</div>
 				  </div>
